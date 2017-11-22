@@ -12,8 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="description" content="分享个人体会，将工作生活遇到的事情写入到wiki或博客上，提醒自己，主要涉猎于网站后台开发，Linux + PHP+ Nginx + Mysql 及个人感悟。与大家共勉 --马伟倬个人网站" />
-		<meta name="keywords" content="后端,php,javascript,html5,开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek">
-
+		<meta name="keywords" content="maweizhuo,马伟倬,后端,php,javascript,html5,开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek">
 </head>
 <body>
 	<h1>welcome to weizhuo.ma web</h1>
@@ -28,7 +27,7 @@
 													<li>
 														<ul class="address-text">
 															<li><b>PHONE </b></li>
-															<li>: +135 *** *** 70</li>
+															<li>: 135 *** *** 70</li>
 														</ul>
 													</li>
 													<li>
@@ -46,30 +45,37 @@
 													<li>
 														<ul class="address-text">
 															<li><b>WEBSITE </b></li>
-															<li><a href="http://maweizhuo.com">: maweizhuo.com</a></li>
+															<li><a href="http://maweizhuo.com" target="_blank">: maweizhuo.com</a></li>
 														</ul>
 													</li>
 													<li>
 														<ul class="address-text">
 															<li><b>BLOG </b></li>
-															<li><a href="http://blog.maweizhuo.com">: blog.maweizhuo.com</a></li>
+															<li><a href="http://blog.maweizhuo.com" target="_blank">: blog.maweizhuo.com</a></li>
 														</ul>
 													</li>
 													<li>
 														<ul class="address-text">
 															<li><b>WIKI </b></li>
-															<li><a href="http://wiki.maweizhuo.com">: wiki.maweizhuo.com</a></li>
+															<li><a href="http://wiki.maweizhuo.com" target="_blank">: wiki.maweizhuo.com</a></li>
 														</ul>
 													</li>
 												</ul>
-			
 
 			</div>
 			
 			<div class="clear"></div>
 		</div>
 	<footer>
-		<p class="agileinfo"> &copy; 2017 . All Rights Reserved | Design by <a href="http://maweizhuo.com">weizhuo.ma</a></p>
+	<script type="text/javascript">
+	window.onload=function  setValue()//在页面加载时赋值
+        {
+        	var myDate = new Date();
+	        var year =	myDate.getFullYear();
+            document.getElementById("thisYear").innerHTML=year;
+        }
+	</script>
+		<p class="agileinfo"> &copy; <span id='thisYear'></span> . All Rights Reserved | Design by <a href="http://maweizhuo.com">weizhuo.ma</a></p>
 	</footer>
 </body>
 </html>
